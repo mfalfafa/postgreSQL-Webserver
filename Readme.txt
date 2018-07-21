@@ -19,14 +19,13 @@ How to configure :
    https://www.heidisql.com/download.php
    Download Adminer File at :
    https://www.adminer.org/en/
-2. Download Adminer PHP file at : https://www.adminer.org/en/phpmyadmin/
-3. Put Adminer PHP File to ./xampp/htdocs/"adminer_file.php".
-4. Open XAMPP Control Panel and start Apache Server.
-5. Run Adminer PHP file in browser using the following url :
+2. Put Adminer PHP File to ./xampp/htdocs/"adminer_file.php".
+3. Open XAMPP Control Panel and start Apache Server.
+4. Run Adminer PHP file in browser using the following url :
    https://localhost/adminer_file.php 
-6. Select PostgreSQL in Adminer page and Login using username "postgres" and password that you have entered while installing PostgreSQL.
-7. You are ready to create a new database in PostgreSQL now using Adminer Page.
-8. After create database on Adminer, you can remote that database using HeidiSql by using the following actions :
+5. Select PostgreSQL in Adminer page and Login using username "postgres" and password that you have entered while installing PostgreSQL.
+6. You are ready to create a new database in PostgreSQL now using Adminer Page.
+7. After create database on Adminer, you can remote that database using HeidiSql by using the following actions :
    * Open heidisql
    * Fill Network type with "PostgreSQL"
    * Fill Hostname with "localhost"
@@ -35,6 +34,6 @@ How to configure :
    * Port : 5432
    * Database : "postgres"
    And click Open. And you are connect to your database now.
-9. You can make a PHP file that connect to your Postgres database using "pg_connect" and do the actions that you want with your DB.
+8. You can make a PHP file that connect to your Postgres database using "pg_connect" and do the actions that you want with your DB.
 
 Note : Don't forget to put your PHP file that is used to manage your Postgres DB in ./xampp/htdocs/ directory.
